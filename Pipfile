@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyspiffe = {editable = true, git = "https://github.com/HewlettPackard/py-spiffe"}
+crytpography = "==3.4.8"
+Flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
